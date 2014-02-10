@@ -1,9 +1,9 @@
-<?php
+<?php defined('C5_EXECUTE') or die(_("Access Denied."));
 class ThedaywefightbackPackage extends Package {
 
 	protected $pkgHandle = 'thedaywefightback';
 	protected $appVersionRequired = '5.5.0';
-	protected $pkgVersion = '0.9';
+	protected $pkgVersion = '0.9.1';
 	
 	public function getPackageDescription() {
 		return t("Displays a footer banner from thedaywefightback.org.");
